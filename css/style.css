@@ -595,3 +595,9 @@ nav {
 	margin-bottom:100px;
   }
 
+
+.map_image {
+	max-width:100%;
+	height: auto;
+  }
+
