@@ -229,3 +229,30 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
+
+.section2 {
+	position: relative;
+  }
+
+  .section2_line {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  .section2_line p {
+	font-family: 'Montserrat';
+    font-style: normal;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 54px;
+	text-align: center;
+	color: #2C4058;
+	margin-bottom: 50px;
+	
+  }
+  .line {
+	margin-top: 54px;
+	color: #2C4058;
+	margin-bottom: 32px;
+  }
