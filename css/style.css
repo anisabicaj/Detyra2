@@ -522,3 +522,76 @@ nav {
 	margin-bottom: 32px;
   }
 
+
+#page {
+    display:grid;
+    width: 1100px;
+    height:500px;
+	margin-left:180px;
+	padding-top:10px;
+    grid-template-areas:
+    "fig1 fig1 fig2  fig3"
+    "fig1 fig1 fig4  fig5"
+}
+
+.fig1 {
+    grid-area: fig1;
+	height:575px;
+	width:438px;
+	margin-left:70px;
+}
+.fig2 {
+    grid-area: fig2;
+	height:285px;
+	width:214px;
+	margin-top:30px;
+}
+.fig3 {
+    grid-area: fig3;
+	height:285px;
+	width:214px;
+	margin-top:30px;
+	margin-left:-15px;
+}
+.fig4 {
+    grid-area: fig4;
+	height:285px;
+	width:214px;
+	margin-top:-47px;
+}
+.fig5 {
+    grid-area: fig5;
+	height:285px;
+	width:214px;
+	margin-top:-47px;
+	margin-left:-15px;
+}
+
+.gallery_line {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+
+  .gallery_line .gallery_text {
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    /* identical to box height */
+    text-align: center;
+    color: #2C4058;
+  }
+
+  .line3 {
+	margin-top: 176px;
+	border: 1px solid #2C4058;
+	margin-bottom: 32px;
+  }
+
+  .g_btn {
+	margin-left:700px;
+	margin-bottom:100px;
+  }
+
