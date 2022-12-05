@@ -497,3 +497,27 @@ nav {
 		margin-top:230px;
 
   }
+
+.news_line {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+
+  .news_line .news_text {
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+	text-align: center;
+    color: #FFFFFF;
+	margin-bottom: -200px;
+	
+  }
+
+  .line2 {
+	margin-top: 176px;
+	border: 1px solid #FFFFFF;
+	margin-bottom: 32px;
+  }
